@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Muhammad Utsman on 27/12/2018
+  ~ Copyright (c) 2018 . All rights reserved.
+  ~ Last modified 12/27/18 8:41 AM
+  -->
+
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="blue">#5aa1f7</color>
+    <color name="red">#ef5a5a</color>
+    <color name="green">#6cfa6c</color>
+    <color name="yellow">#ffd557</color>
+</resources>

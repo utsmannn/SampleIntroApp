@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Muhammad Utsman on 27/12/2018
+  ~ Copyright (c) 2018 . All rights reserved.
+  ~ Last modified 12/27/18 8:44 AM
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroActivity">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/my_viewpager"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/next_btn"
+        android:text="Next"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="40dp"
+        android:theme="@style/MyButtonStyle"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/skip_btn"
+        android:text="Skip"
+        android:layout_alignParentRight="true"
+        android:layout_margin="25dp"
+        android:layout_alignParentEnd="true"
+        android:theme="@style/MyButtonStyle"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
